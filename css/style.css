@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* carousel css start */
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption h5 {
+  font-family: "Satisfy", cursive;
+}
+
+/* where you want to go section css start */
+
+#wantToGooDiv {
+  background-color: #040e27;
+}
+
+/* popular destination css start */
+
+.box {
+  position: relative;
+  transition: all 0.5s ease-in;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box-caption {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+/* Pre Footer Section Css Start */
+
+#preFooterDiv {
+  background-color: #040e27;
+}
